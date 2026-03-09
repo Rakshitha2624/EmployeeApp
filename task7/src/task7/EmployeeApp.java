@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class EmployeeApp {
 
     static final String DB_URL = "jdbc:mysql://localhost:3306/employee_db";
-    static final String DB_USER = "root";
-    static final String DB_PASS = "Rakshitha$26"; // 🔁 Replace with your MySQL password
+    static final String DB_USER = "User_name";
+    static final String DB_PASS = "Password"; // 🔁 Replace with your MySQL password
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
